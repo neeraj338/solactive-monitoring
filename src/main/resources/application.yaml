@@ -1,0 +1,6 @@
+
+management.server.port: 8081
+management.endpoints.web.exposure.include: info,health,monitoring
+
+javamelody:
+  management-endpoint-monitoring-enabled: true
